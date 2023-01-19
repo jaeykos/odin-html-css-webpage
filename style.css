@@ -1,0 +1,280 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+
+
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(Roboto-Black.ttf)
+}
+
+div {
+    font-family: Roboto;
+}
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    justify-content: center;
+    
+    border: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.section0-outer{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.section0{
+    padding-block: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 80px;
+    align-items: center;
+    width: 1200px;
+}
+
+.section1-outer{
+    display: flex;
+    width: auto;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-inline: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 100px;
+    width: 1200px; 
+}
+
+.section2-outer{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 100px;
+    width: 1200px;
+}
+
+.section3-outer{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center; 
+
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    padding-block: 100px;
+    padding-inline: 500px;
+    width: 1200px;
+}
+
+.section4-outer{
+    display: flex;
+    
+    background-color: white;
+    justify-content: center;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px;
+}
+
+.section5-outer{
+    display: flex;
+    
+    background-color: #1F2937;
+    justify-content: center;
+    
+}
+
+.section5{
+    padding-block: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding-inline: 80px;
+    align-items: center;
+
+}
+
+.header-logo{
+    font-family: Roboto-Black;
+    font-size: 24px;
+    color: #f9faf8;
+    min-width: 400px;
+}
+
+
+.top-right-links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 18px;
+    min-width: 450px;
+    justify-content: right;    
+}
+
+
+
+.section1-left{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    min-width: 450px;
+    justify-content: center;
+    gap:15px;
+}
+
+.s1-title{
+    font-size: 48px;
+    font-family:  Roboto-Black;
+    color: #f9faf8;
+}
+
+.s1-text{
+    font-size: 18px;
+    color:#e5e7eb;
+    
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 6px;
+    height: 40px;
+    width: 100px;
+    font: Roboto;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.box-button{
+    border-style: solid;
+    height:30px;
+}
+
+.s1-placeholder{
+    background-color: rgb(152, 152, 152);
+    width: 550px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.section2-header{
+    font-size: 36px;
+    font-family: Roboto-Black;
+    margin: 30px;
+}
+
+.section2-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px;
+    
+}
+
+.section2-item{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    align-items: center;
+    
+}
+.s2-round-square{
+    border-style:solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    height:160px;
+    width: 160px;
+    
+}
+
+.s2-note{
+    text-align: center;
+    font-size: 16px;
+
+    
+}
+
+
+
+.s3-text{
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+.s3-author{
+    margin-left: auto;
+    font-size: 20px;
+    font-family: Roboto-Black ;
+}
+
+
+
+.alert{
+    display: flex;
+    align-items: center;
+
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 100px;
+}
+
+
+.alert-box{
+       
+    width: 700px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.box-title{
+    font-family: Roboto-Black;
+}
